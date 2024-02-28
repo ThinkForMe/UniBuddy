@@ -21,7 +21,7 @@ while True:
         if user_age < 18:
             print(f"Sorry {user_name}, you are too young to proceed")
         elif user_age > 120:
-            print(f"Sorry {user_name} you are dead...")
+            print(f"Sorry {user_name}, I doubt that is your real age...")
         else:
             
             break 
@@ -70,28 +70,28 @@ Let me suggest some clubs for you...""")
 #club offer depending on colour chosen
 if user_color == "Red":
     print("""
-- You can join the football Red team, they usually lose...\n\
+- You can join the football Red team...\n\
 - You can join the Organ Dissection Society, if you like gore...\n\
-- We have a great Arsenal fan club, they usually lose too...
+- We have a great Arsenal fan club...
 """)
 elif user_color == "Blue":
     print("""
-- You can join the Sky Observation Society, you'd learn what Altair is...\n\
-- You can join the Blue football team, they hardly win...\n\
+- You can join the Sky Observation Society, you'd learn all about stars...\n\
+- You can join the Blue football team...\n\
 - You can go to the Swimming Team, bring your plastic ducks...
 """)
 elif user_color == "Green":
     print("""
 Green ? bad choice...
--grab a movie or a book, that's all we got for you. Green... really ?
+-grab a movie or a book...
 """)
 elif user_color == "Yellow":
     print("""
 Yellow? Now we are talking, hope is back!\n\
-- You can join the Yellow football team, always winning!\n\
-- You can be part of the Sun Worshippers Fraternity\n\
+- You can join the Yellow football team\n\
+- You can be part of the Sun Fraternity\n\
 - You can try your luck at the Pasta Kings League \n\
-- You can join the Citrus Cocktail Society!
+- You can join the Citrus Mocktail Society!
 """)
 
  #ending text   
