@@ -1,13 +1,14 @@
-""" This program aims at helping new students 
+"""
+This program aims at helping new students 
 navigate their university and find clubs to join
 It is my first program
 """
 
-#welcome message
+# Welcome message, explains the purpose of the tool
 print("""
 Welcome to Unibuddy!
 Your go to app to easily navigate your new environnment!
-Let us begin
+Let us begin...
 """)
 colour_list = ["Blue", "Red", "Yellow", "Green"]
 light_year_distance = 9460730472580.8
